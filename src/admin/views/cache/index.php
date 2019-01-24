@@ -21,7 +21,7 @@ $this->title = Yii::t('cleaner/cache','title');
 			?>
 		</div>
 		<div class="box-footer">
-			<?= Html::submitButton('<i class="fa fa-trash-o"></i> '.t('main','clear'), ['class' => 'btn btn-danger', 'name' => 'clear-button']);?>
+			<?= Html::submitButton('<i class="fa fa-trash-o"></i> '.\Yii::t('main','clear'), ['class' => 'btn btn-danger', 'name' => 'clear-button']);?>
 		</div>
 	<?php ActiveForm::end(); ?>
 </div>
