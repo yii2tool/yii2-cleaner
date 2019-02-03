@@ -12,7 +12,9 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"yii2module\\cleaner\\": "src"
+			"yii2module\\cleaner\\": "src",
+			"yii2tool\\cleaner\\": "src",
+			"yii2tool\\cleaner\\tests\\": "tests"
 		}
 	},
 	"require": {
