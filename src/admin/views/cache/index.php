@@ -1,9 +1,9 @@
 <?php
 
-use yii2lab\app\domain\enums\AppEnum;
+use yii2rails\app\domain\enums\AppEnum;
 use yii\helpers\Html;
 use kartik\widgets\ActiveForm;
-use yii2lab\extension\widget\SwitchInput;
+use yii2rails\extension\widget\SwitchInput;
 
 $this->title = Yii::t('cleaner/cache','title');
 

@@ -1,10 +1,10 @@
 <?php
 namespace yii2module\cleaner\admin\controllers;
 
-use yii2lab\app\domain\enums\AppEnum;
+use yii2rails\app\domain\enums\AppEnum;
 use Yii;
 use yii\web\Controller;
-use yii2lab\extension\validator\DynamicModel;
+use yii2rails\extension\validator\DynamicModel;
 use yii2module\cleaner\admin\models\Cash;
 use yii2lab\navigation\domain\widgets\Alert;
 

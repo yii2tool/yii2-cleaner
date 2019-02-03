@@ -2,9 +2,9 @@
 
 namespace yii2module\cleaner\domain\helpers;
 
-use yii2lab\app\domain\enums\AppEnum;
+use yii2rails\app\domain\enums\AppEnum;
 use yii\base\InvalidArgumentException;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 
 class ClearHelper
 {
