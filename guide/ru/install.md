@@ -20,7 +20,7 @@ oCleanerManage
 return [
 	'modules' => [
 		// ...
-		'cleaner' => 'yii2module\cleaner\console\Module',
+		'cleaner' => 'yii2tool\cleaner\console\Module',
 		// ...
 	],
 ];
@@ -33,7 +33,7 @@ return [
 	'modules' => [
 		// ...
 		'cleaner' => [
-			'class' => 'yii2module\cleaner\admin\Module',
+			'class' => 'yii2tool\cleaner\admin\Module',
 			'as access' => Config::genAccess(PermissionEnum::CLEANER_MANAGE),
 		],
 		// ...

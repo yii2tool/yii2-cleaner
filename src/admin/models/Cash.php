@@ -1,5 +1,5 @@
 <?php
-namespace yii2module\cleaner\admin\models;
+namespace yii2tool\cleaner\admin\models;
 
 use Yii;
 use yii2lab\misc\yii\base\Model;

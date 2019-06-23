@@ -1,11 +1,11 @@
 <?php
-namespace yii2module\cleaner\admin\controllers;
+namespace yii2tool\cleaner\admin\controllers;
 
 use yii2rails\app\domain\enums\AppEnum;
 use Yii;
 use yii\web\Controller;
 use yii2rails\extension\validator\DynamicModel;
-use yii2module\cleaner\admin\models\Cash;
+use yii2tool\cleaner\admin\models\Cash;
 use yii2lab\navigation\domain\widgets\Alert;
 
 class CacheController extends Controller

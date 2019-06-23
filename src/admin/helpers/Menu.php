@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\cleaner\admin\helpers;
+namespace yii2tool\cleaner\admin\helpers;
 
 use yii2rails\extension\menu\interfaces\MenuInterface;
-use yii2module\cleaner\domain\enums\CleanerPermissionEnum;
+use yii2tool\cleaner\domain\enums\CleanerPermissionEnum;
 
 class Menu implements MenuInterface {
 	

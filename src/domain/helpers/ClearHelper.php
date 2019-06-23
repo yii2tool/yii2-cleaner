@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\cleaner\domain\helpers;
+namespace yii2tool\cleaner\domain\helpers;
 
 use yii2rails\app\domain\enums\AppEnum;
 use yii\base\InvalidArgumentException;

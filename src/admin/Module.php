@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\cleaner\admin;
+namespace yii2tool\cleaner\admin;
 
 use yii\base\Module as YiiModule;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2module\cleaner\domain\enums\CleanerPermissionEnum;
+use yii2tool\cleaner\domain\enums\CleanerPermissionEnum;
 
 
 /**
